@@ -55,7 +55,7 @@ core.compile(
 
 
 
-historial = core.fit(mem, [time , num], epochs=1, verbose=False)
+historial = core.fit(mem, [time , num], epochs=1000, verbose=False)
 
 
 model.save('G1PRedic.h5')
