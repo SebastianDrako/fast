@@ -4,9 +4,6 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-duniterpy = "*"
-spyder-kernels = { version = "==2.3"}
-notebook = "*"
 tensorflow = "*"
 
 [dev-packages]
